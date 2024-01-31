@@ -1,0 +1,13 @@
+.casa {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 100ms ease-in-out;
+}
+
+.casa:hover {
+    cursor: crosshair;
+    transform: scale(1.2); /*aumentando a div e em 1.2x*/
+    z-index: 1; /*garante que a div sobreponha as outras*/
+    border: 2px solid blueviolet;
+}
